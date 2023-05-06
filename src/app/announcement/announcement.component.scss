@@ -1,0 +1,26 @@
+.announcement-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 900px;
+  border: 2px solid #8531a9;
+  border-radius: 25px;
+  padding: 30px;
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .author {
+    align-self: flex-start;
+    font-weight: 600;
+  }
+
+  img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+}
